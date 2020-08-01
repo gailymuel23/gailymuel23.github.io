@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio of Samuel</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+</head>
+<body>
+<div class="navbar">
+<div class="logo">
+
+</div>
+<a class="btn">
+<span></span>
+<span></span>
+<span></span>
+</a>
+<div class="menu">
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Social Media Accounts</a>
+<a href="#oi">Other Info.</a>
+</div>
+</div>
+<div class="header">
+
+</div>
+<h1 id="about">About</h1>
+<p>
+    I'm Samuel Manzanero graduated  Bachelor of  Science in Electronics Communication Engineering on 2015-2020 in Eulogio “Amang” Rodriguez Institute of Science and Technology (EARIST) Sampaloc  Manila . My objectives is to enhance my knowledge and skills in the field of Electronics and Communication Engineering, Web Developer and Software Engineering. Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company. My Achievements are I won in Patimpalak sa Agham at Teknolohiya ng EARISTian (PATATE) 2020 and Finalist in 13th Annual Research Awards (ARAW 2020) and Participants in DOST-NCR 2019 Regional Invention
+    Contest and Exhibits.
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 id="skills">Skills</h1>
+<div class="sm">
+    <center>
+    <a title = "CSS"  href="https://www.w3schools.com/css/default.asp"><i class="fab fa-css3-alt"></i></a>
+    <a title = "HTML5"  href="https://www.w3schools.com/html/default.asp"><i class="fab fa-html5"></i></a>
+    <a title = "Python"  href="https://www.w3schools.com/python/default.asp"><i class="fab fa-python"></i></a>
+    <a title = "JS"  href="https://www.w3schools.com/js/default.asp"><i class="fab fa-js"></i></a>
+    </center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id=contact>Social Media Accounts</h1>
+    <center>
+    <a title = "Facebook" href="https://www.facebook.com/samsamvioletm/"><i class="fab fa-facebook-f"></i></a>
+    <a title = "Youtube"  href="https://www.youtube.com/channel/UCxns_Fw7FWR_R3XGlVecHCg?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+    <a title = "Gmail" href="https://www.google.com/gmail/"><i class="fas fa-envelope"></i></a> 
+    <a title = "CV"  href="https://drive.google.com/file/d/1SZ15DQqVLbnBgq4eAOcXpnHdjljcxDTP/view?usp=sharing"><i class="far fa-file"></i></a></center>
+    
+  </div>
+  <h1 id="oi">Other Info.</h1>
+  <p hidden id="et">marksamuel.msm@gmail.com</p>
+  <p hidden id="ml">09058950575</p>
+  <div class="contain">
+  <center>
+  <button class ="bt btn1" onclick="copyToClipboard('#et')">Click this to copy my email!</button>
+  <button class ="bt btn2" onclick="copyToClipboard('#ml')">Click this to copy my phone number!</button>
+</center>
+</div>
+<script type="text/javascript">
+
+$(".btn").on("click",function(){
+$('.menu').toggleClass("show");
+});
+
+
+</script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
+
